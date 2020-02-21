@@ -14,6 +14,15 @@ The requirements should be available on most systems, you'll get a friendly erro
  - `java` - required by selenium-standalone
 
 
+
+## Install
+Add `./bin/bash-selenium-standalone` to your `PATH` (see <https://unix.stackexchange.com/a/26059>) or just run it with
+
+```
+./bin/bash-selenium-standalone
+```
+
+
 ## Usage
 The following will download
 
