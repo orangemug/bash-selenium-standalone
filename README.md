@@ -6,6 +6,14 @@ A single bash script to download/install/run selenium standalone
 [stability]:   https://github.com/orangemug/stability-badges#experimental
 
 
+## Prerequisites
+The requirements should be available on most systems, you'll get a friendly error if they are not available.
+
+ - `bash`
+ - `curl`
+ - `java` - required by selenium-standalone
+
+
 ## Usage
 The following will download
 
@@ -13,10 +21,10 @@ The following will download
  - chromedriver
  - geckodriver
 
-Then `selenium-standalone` will be started passing any args along to `selenium-standalone`
+Then `selenium-standalone` will be started passing any args along to `selenium-standalone.jar`
 
 ```
-./bash-selenium-standalone
+./bash-selenium-standalone [options]
 ```
 
 The files will be saved to a `.bash-selenium-standalone` directory where you ran the script from.
